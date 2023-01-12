@@ -19,7 +19,7 @@ body {
     margin: 0;
     font-family: var(--font-family-inter);
     font-weight: 700;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
 }
 
 h1 {
@@ -37,10 +37,17 @@ h3 {
 }
 
 .box {
+    color: var(--bg-color);
+    text-shadow: none;
     border: 6px solid var(--primary-color);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     display: inline-block;
     font-size: 4em;
     padding: 25px 50px;
     margin: 20px;
+}
+
+#smile {
+    margin-top: 25px;
 }
