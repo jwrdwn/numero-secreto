@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --font-family-azeret: 'Azeret Mono', monospace;
+    --font-family-inter: 'Inter', sans-serif;
+    --bg-color: #FFB100; 
+    --primary-color: #F0ECCF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family-inter);
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 6px solid var(--primary-color);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    display: inline-block;
+    font-size: 4em;
+    padding: 25px 50px;
+    margin: 20px;
+}
