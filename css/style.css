@@ -41,7 +41,7 @@ h3 {
     text-shadow: none;
     border: 6px solid var(--primary-color);
     width: 200px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
     display: inline-block;
     font-size: 4em;
     padding: 25px 50px;
@@ -50,4 +50,23 @@ h3 {
 
 #smile {
     margin-top: 25px;
+}
+
+.btn-jogar {
+    font-family: var(--font-family-azeret);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    margin-top: 30px;
+    background-color: var(--primary-color);
+    color: rgba(0, 0, 0, 0.93);
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
+}
+
+.btn-jogar:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
